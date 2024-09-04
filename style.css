@@ -71,6 +71,8 @@ header a {
     background-color: #fff;
     list-style-position: inside;
     text-wrap: nowrap;
+    overflow-y: auto;
+    
 }
 .torents a {
     text-decoration: none;
