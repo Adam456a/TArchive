@@ -33,9 +33,10 @@ header a {
 
 .disclamer {
     text-align: center;
-    padding-top: 2rem;
+    padding-top: 7rem;
     padding-right: 3rem;
     padding-left: 3rem;
+    font-size: large;
     color: white;
 }
 
