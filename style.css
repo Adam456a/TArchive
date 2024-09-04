@@ -70,6 +70,7 @@ header a {
     padding: 10px 20px;
     background-color: #fff;
     list-style-position: inside;
+    text-wrap: nowrap;
 }
 .torents a {
     text-decoration: none;
