@@ -80,3 +80,35 @@ header a {
     color: black;
     padding-bottom: 2px;
 }
+
+.linkscenter {
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links h1 {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.links {
+    border-radius: 15px;
+    display: inline-block;
+    border: 6px solid;
+    max-width: 90%;
+    text-align: left;
+    padding: 10px 20px;
+    background-color: #fff;
+    list-style-position: inside;
+    text-wrap: nowrap;
+    overflow-y: auto;
+}
+
+.links a {
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+}
