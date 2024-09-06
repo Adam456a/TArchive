@@ -114,6 +114,7 @@ header a {
 }
 
 .donate {
+    padding-top: 13%;
     display: grid;
     justify-content: center;
     color: #fff;
@@ -127,7 +128,7 @@ header a {
 }
 
 .donatebtc {
-    padding-top: 1%;
+    padding-top: 3%;
     color: #fff;
     user-select: none;
     text-decoration: none;
