@@ -112,3 +112,31 @@ header a {
     text-decoration: none;
     font-size: 20px;
 }
+
+.donate {
+    display: grid;
+    justify-content: center;
+    color: #fff;
+}
+
+.donatexmr {
+    color: #fff;
+    user-select: none;
+    text-decoration: none;
+    text-align: left;
+}
+
+.donatebtc {
+    padding-top: 1%;
+    color: #fff;
+    user-select: none;
+    text-decoration: none;
+    text-align: left;    
+}
+
+.donate a {
+    color: #fff;
+    user-select: none;
+    text-decoration: none;
+    text-align: left;    
+}
