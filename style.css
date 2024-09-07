@@ -115,21 +115,14 @@ header a {
 
 .donateall {
     display: grid;
-    justify-content: center;
     padding-top: 4rem;
 }
 
 .donate {
-    display: table;
+    display: grid;
+    justify-content: center;
     table-layout: fixed;
     border-spacing: 1rem;
-    text-align: left;
-}
-
-.donate2 {
-    display: table;
-    table-layout: fixed;
-    text-align: left;
 }
 
 .xmr, .btc {
