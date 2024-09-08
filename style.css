@@ -113,13 +113,22 @@ header a {
     font-size: 20px;
 }
 
+.donate22 {
+    padding-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
 .donateall {
     display: grid;
-    padding-top: 4rem;
+    border: #000000 6px solid;
+    border-radius: 15px;
+    background-color: #fff;
+    text-wrap: nowrap;
+    overflow-y: auto;
 }
 
 .donate {
-    display: grid;
     justify-content: center;
     table-layout: fixed;
     border-spacing: 1rem;
@@ -127,14 +136,14 @@ header a {
 
 .xmr, .btc {
     display: table-cell;
-    color: #fff;
+    color: #000000;
     text-decoration: none;
     user-select: none;
     text-align: left;
 }
 
 .xmr a, .btc a {
-    color: #fff;
+    color: #000000;
     user-select: none;
     text-decoration: none;
 }
