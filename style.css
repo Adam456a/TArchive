@@ -147,3 +147,22 @@ header a {
     user-select: none;
     text-decoration: none;
 }
+
+.lastupdatetop {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.lastupdate {
+    border-radius: 15px;
+    display: inline-block;
+    border: 6px solid;
+    max-width: 90%;
+    text-align: left;
+    padding: 10px 20px;
+    background-color: #fff;
+    list-style-position: inside;
+    text-wrap: nowrap;
+    overflow-y: auto;
+}
