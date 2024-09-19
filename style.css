@@ -30,8 +30,14 @@ header a {
     font-size: 20px;
 }
 
+h2 {
+    text-align: center;
+    padding-top: 17vh;
+    color: #fff;
+}
+
 .search-bar {
-    padding-top: 20vh;
+    padding-top: 3vh;
     padding-bottom: 2vh;
     display: grid;
     justify-content: center;
