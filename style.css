@@ -6,38 +6,28 @@
 }
 
 body {
-    background-color: rgb(16, 39, 83);
-    
-}
-
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: #00000066;
-    color: #fff;
-    width: 100%;
-    user-select: none;
+    background-color: hsl(228, 100%, 41%);
 }
 
 .logo {
     font-size: 18px;
 }
 
-header a {
-    text-decoration: none;
-    color: #fff;
-    padding: 10px;
-    font-size: 20px;
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #0a99ffcf;
+    color: #303030;
+    width: 100%;
+    user-select: none;
 }
 
-.disclamer {
-    text-align: center;
-    padding-top: 7rem;
-    padding-right: 3rem;
-    padding-left: 3rem;
-    font-size: large;
-    color: white;
+header a {
+    text-decoration: none;
+    color: #303030;
+    padding: 10px;
+    font-size: 20px;
 }
 
 .search-bar {
@@ -63,6 +53,11 @@ header a {
     padding-bottom: 8rem;
 }
 
+.center-torents p {
+    text-align: center;
+    padding-top: 1rem;
+}
+
 .torents {
     border-radius: 15px;
     display: inline-block;
@@ -82,88 +77,17 @@ header a {
     padding-bottom: 2px;
 }
 
-.linkscenter {
-    padding-top: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.links h1 {
+.disclamer {
     text-align: center;
-    padding-bottom: 5px;
+    padding-top: 7rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    font-size: large;
+    color: white;
 }
 
-.links {
-    border-radius: 15px;
-    display: inline-block;
-    border: 6px solid;
-    max-width: 90%;
-    text-align: left;
-    padding: 10px 20px;
-    background-color: #fff;
-    list-style-position: inside;
-    text-wrap: nowrap;
-    overflow-y: auto;
-}
-
-.links a {
+.disclamer h1 {
+    color: red;
     text-align: center;
-    color: #000000;
-    text-decoration: none;
-    font-size: 20px;
 }
 
-.donate22 {
-    padding-top: 3rem;
-    display: flex;
-    justify-content: center;
-}
-
-.donateall {
-    display: grid;
-    border: #000000 6px solid;
-    border-radius: 15px;
-    background-color: #fff;
-    text-wrap: nowrap;
-    overflow-y: auto;
-}
-
-.donate {
-    justify-content: center;
-    table-layout: fixed;
-    border-spacing: 1rem;
-}
-
-.xmr, .btc {
-    display: table-cell;
-    color: #000000;
-    text-decoration: none;
-    user-select: none;
-    text-align: left;
-}
-
-.xmr a, .btc a {
-    color: #000000;
-    user-select: none;
-    text-decoration: none;
-}
-
-.lastupdatetop {
-    padding-top: 2rem;
-    display: flex;
-    justify-content: center;
-}
-
-.lastupdate {
-    border-radius: 15px;
-    display: inline-block;
-    border: 6px solid;
-    max-width: 90%;
-    text-align: left;
-    padding: 10px 20px;
-    background-color: #fff;
-    list-style-position: inside;
-    text-wrap: nowrap;
-    overflow-y: auto;
-}

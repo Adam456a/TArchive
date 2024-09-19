@@ -1,8 +1,0 @@
- <div class="donatecenter">
-        <div class="donate">
-            <h1>Donate</h1>
-            <ul id="donatelist">
-                <li><a>XMR:<a href="monero:47cvWamiVzoNi7XtYLm66fNa4JKWWJCiR5cyAscZCAUePn8WyJfN3CERJFrUuixUbHAcmpxUmpw1zf29e8EaKkHC5hSjYPU">Monero : 47cvWamiVzoNi7XtYLm66fNa4JKWWJCiR5cyAscZCAUePn8WyJfN3CERJFrUuixUbHAcmpxUmpw1zf29e8EaKkHC5hSjYPU</a></li>
-            </ul>
-        </div>
-    </div>
