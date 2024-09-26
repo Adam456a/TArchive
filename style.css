@@ -75,6 +75,7 @@ h2 {
     list-style-position: inside;
     text-wrap: nowrap;
     overflow-y: auto;
+    text-align: left;
     
 }
 .torents a {
