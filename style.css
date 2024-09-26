@@ -56,7 +56,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 8rem;
+    padding-bottom: 2rem;
 }
 
 .center-torents p {
@@ -82,6 +82,34 @@ h2 {
     text-decoration: none;
     color: black;
     padding-bottom: 2px;
+}
+
+.back-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.back {
+    border-radius: 15px;
+    display: inline-block;
+    border: 6px solid;
+    max-width: 90%;
+    padding: 0.5rem 0.7rem;
+    background-color: #fff;
+    list-style-position: inside;
+    text-wrap: nowrap;
+    overflow-y: auto;
+    text-align: left;
+    text-align: center;
+}
+
+.back a {
+    user-select: none;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
 }
 
 .disclamer {
