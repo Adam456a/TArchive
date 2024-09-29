@@ -38,53 +38,7 @@
         </div>
     </div>
     
-    <script>
-        function sortList() {
-            var ul, li, switching, i, shouldSwitch;
-            ul = document.getElementById("torrent-list");
-            switching = true;
+    <script src="script.js"></script>
 
-            while (switching) {
-                switching = false;
-                li = ul.getElementsByTagName("li");
-                
-                for (i = 0; i < (li.length - 1); i++) {
-                    shouldSwitch = false;
-
-                    if (li[i].textContent.toLowerCase() > li[i + 1].textContent.toLowerCase()) {
-                        shouldSwitch = true;
-                        break;
-                    }
-                }
-
-                if (shouldSwitch) {
-                    li[i].parentNode.insertBefore(li[i + 1], li[i]);
-                    switching = true;
-                }
-            }
-        }
-
-        function searchFunction() {
-            var input, filter, ul, li, a, i, txtValue;
-            input = document.getElementById('search-input');
-            filter = input.value.toUpperCase();
-            ul = document.getElementById("torrent-list");
-            li = ul.getElementsByTagName('li');
-
-            for (i = 0; i < li.length; i++) {
-                a = li[i].getElementsByTagName("a")[0];
-                txtValue = a.textContent || a.innerText;
-                if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                    li[i].style.display = "";
-                } else {
-                    li[i].style.display = "none";
-                }
-            }
-        }
-
-        window.onload = function() {
-            sortList();
-        };
-    </script>
 </body>
 </html>
