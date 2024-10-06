@@ -13,7 +13,10 @@ A website where i add Movie/TvShow torents That are good quality so its easier f
 - Find Torents for Movies
 - Find Torents for TvShows
 
+## Nameing Sceme
 
+- Name (resolution) (year)
+- e.g The Truman Show (1080p) (1998)
 
 ## Authors
 
